@@ -1,0 +1,11 @@
+var a="3";
+var b="4";
+console.log("a is ",+a);
+console.log("b is ",+b);
+console.log("after interchanging ");
+var temp=a;
+a=b;
+b=temp;
+console.log("a is ",+a);
+console.log("b is ",+b);
+//alert("the value of a="+ a + " the value of b="+b);
